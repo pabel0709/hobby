@@ -1,0 +1,136 @@
+#pasek{
+
+  width: 100%;
+  background-color: black;
+
+  border-bottom: 1px solid white;
+
+}
+#wrapper{
+
+}
+#nawigacja{
+  margin-top: 0;
+}
+
+body{
+  background-color: lightgrey;
+  margin: 0px;
+}
+ul{
+  margin-top: 10px;
+}
+
+ul>a{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+ul>a:hover{
+  color: #ccc;
+}
+
+#nawigacja>a>li{
+  list-style-type: none;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+#nawigacja>a>li:hover{
+  border-color: #ccc;
+}
+
+#nawigacja{
+  min-width: 500px;
+  width: 600px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#nawigacja > a:nth-child(1) > li{
+  margin-left: 0px;
+}
+
+
+
+
+
+#strona_glowna_naglowek{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
+
+#strona_glowna_naglowek>h2{
+  text-align: center;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.float-left{
+  float: left;
+}
+
+.clear{
+  clear: both;
+}
+
+#o_mnie{
+  width: 80%;
+
+}
+
+h1,p{
+  text-align: center;
+}
+
+#galeria{
+  width: 80%;
+  height: auto;
+}
+
+#moj_wymazony_rower,#rowery {
+  width: 1000px;
+  text-align: center;
+
+}
+
+#w1,#w3{
+  margin: 0px;
+}
+
+#w2{
+  margin: 0 10px 0 10px;
+}
+
+footer{
+  width: 100%;
+  background-color: black;
+  border-top: 1px solid white;
+  color: white;
+}
+
+h3{
+	color: black; 
+}
+
+figure{
+	margin: 0px;
+}
+
+
+	
+	
